@@ -7,9 +7,58 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <style>
+        div.col{
+            background-color: #FEC8D8;
+            border: 1px solid #F5F7F8;
+        }
+        
+        div.col-md-4{
+            background-color: #D291BC;
+            border: 1px solid #F5F7F8;
+        }
+        
+        div.col-8{
+            background-color: #E0BBE4;
+            border: 1px solid #F5F7F8;
+        }
+        
+        div.col-4{
+            background-color: #FFDFD3;
+            border: 1px solid #F5F7F8;
+        }
+        
+    </style>
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">col-8</div>
+            <div class="col-4">col-4</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">col-md</div>
+            <div class="col-md-4">col-md</div>
+            <div class="col-md-4">col-md</div>
+        </div>
+    </div>
+    
+    <br>
+    <p> Are you happy? </p>
+    <button type="button" class="btn btn-success">Yes!</button>
+    <br>
+    <br>
+    <img class="img-fluid" src="http://2.bp.blogspot.com/-ZvBqofvgZEA/UaIDepI0jBI/AAAAAAAAUxo/rVa4mlrwdr8/s1600/DoodleTitle24.png"/>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
